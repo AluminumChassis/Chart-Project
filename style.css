@@ -1,0 +1,14 @@
+* {
+	font-family: Sans-Serif;
+	border: 0 !important;
+	--primary: #ffd042;
+}
+
+.primary {
+	background-color: var(--primary) !important;
+}
+
+.chartfill {
+	width: 1000px;
+    height: auto;
+}

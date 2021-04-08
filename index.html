@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Financial</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.0.2/echarts.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js" integrity="sha512-9cXmvmK1gIDw3Tol6Xg/1SUls/CvBMgedu1aDjT519sQzy7jk+LoezyQqlzClW2LgXww4xEyuqtofg7PtWteLQ==" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation-float.min.css" integrity="sha512-tuBWy51BW5GZ5BfYddst4eq3d8mcnOk1I5ZHj45P5AUcf9yo5X3KmOJslloaM0ZoSDzS4lcGY91j3L1k5ZVuVg==" crossorigin="anonymous" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="./favicon.ico"/>
+	</head>
+	<body>
+		<div class="off-canvas-wrapper">
+			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+				<div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+					<div class="row column">
+						<br>
+						<img class="thumbnail" src="https://via.placeholder.com/550x350">
+						<h5>Title</h5>
+						<p>Something here.</p>
+					</div>
+				</div>
+
+				<div class="off-canvas-content" data-off-canvas-content>
+					<div class="title-bar hide-for-large">
+						<div class="title-bar-left">
+							<button class="menu-icon" type="button" data-open="my-info"></button>
+							<span class="title-bar-title">Mike Mikerson</span>
+						</div>
+					</div>
+					<div class="callout primary">
+						<div class="row column">
+							<h1>Chart Views</h1>
+							<p class="lead">Benjamin Ciccarelli</p>
+						</div>
+					</div>
+					<div class="row small-up-2 medium-up-3 large-up-4">
+						<div class="column">
+							<div id="main" class="thumbnail chartfill"></div>
+							<h5>Financial Chart</h5>
+						</div>
+						<div class="column">
+							<img class="thumbnail" src="https://via.placeholder.com/550x550">
+							<h5>Place Holder</h5>
+						</div>
+						<div class="column">
+							<img class="thumbnail" src="https://via.placeholder.com/550x550">
+							<h5>Place Holder</h5>
+						</div>
+						
+					</div>
+
+					<hr>
+
+					<div class="row">
+						<div class="medium-6 columns">
+							<h3>Contact Me</h3>
+							<p>Something here.</p>
+							<ul class="menu">
+								<li><a href="#">Instabookchat</a></li>
+							</ul>
+						</div>
+						<div class="medium-6 columns">
+							<label>Name
+								<input type="text" placeholder="Name">
+							</label>
+							<label>Email
+								<input type="text" placeholder="Email">
+							</label>
+							<label>
+								Message
+								<textarea placeholder="holla at a designerd"></textarea>
+							</label>
+							<input type="submit" class="button expanded" value="Submit">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+				$(document).foundation();
+		</script>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
